@@ -1,8 +1,8 @@
 [
 	{
-		"first":"Google I/O 2015",
-		"last":"800 Howard St., San Francisco, CA 94103",
-        "occupation":"testing",
+		"first":"Michael",
+		"last":"Ramirez",
+        "occupation":"Doctor",
 		"shifts":3,
 		"end":"2019-05-20T17:00:00-04:00",
 		"unavailable":[
@@ -13,9 +13,9 @@
 	}
 
 	{
-		"first":"Google I/O 2015",
-		"last":"800 Howard St., San Francisco, CA 94103",
-        "occupation":"testing",
+		"first":"Krystal",
+		"last":"Ramirez",
+        "occupation":"Doctor",
 		"shifts":4,
 		"end":"2019-05-20T17:00:00-04:00",
 		"unavailable":[
