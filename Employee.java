@@ -11,14 +11,15 @@ public class Employee
     private int maxHrs;
     private int minHrs;
     private int currentHrs;
+    private String [] location;
+    private String occupation;
     private ArrayList<Object> scheduleHolder = new ArrayList<Object>(3);
 
-    public Employee(String fName,String lName,int maxH,int minH)
+    public Employee(String fName,String lName,String occ)
     {
         firstName = fName;
         lastName = lName;
-        maxHrs = maxH;
-        minHrs = minH;
+        occupation = occ;
 
         availability = new Schedule();
         shiftsTaken = new Schedule();
@@ -97,17 +98,6 @@ public class Employee
                System.out.println("        Time Out: " + span.getTimeOut());
             }
         }
-    }
-
-// following 3 functions aren't functional yet.
-    private boolean isOverMaxHrs()
-    {
-        return true;
-    }
-
-    private boolean isOverMinHrs()
-    {
-        return true;
     }
 
     public boolean doesShiftConflict(int day, TimeSpan shiftTime)
