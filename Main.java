@@ -7,8 +7,8 @@ public class Main
     {
         ArrayList<Object> employeesList = new ArrayList<Object>();
 
-        Employee emp1 = new Employee("Michael", "Ramirez", 30, 40);
-        Employee emp2 = new Employee("Krystal", "Ramirez", 30, 40);
+        Employee emp1 = new Employee("Michael", "Ramirez", "Doctor");
+        Employee emp2 = new Employee("Krystal", "Ramirez", "Doctor");
         employeesList.add(emp1);
         employeesList.add(emp2);
 

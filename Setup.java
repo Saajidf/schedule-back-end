@@ -12,7 +12,7 @@ public class Setup
             System.out.println("Employee Number " + i);
             System.out.println("-----------------------");
             try{
-                empList.add(makeEmp());
+                empList.add(makeEmp("Michael", "Ramirez", "Doctor"));
             }catch(Exception e){
                 System.out.println("Employee wasn't properly entered.");
             }
@@ -109,18 +109,10 @@ public class Setup
         }
     }
 
-    private Employee makeEmp()
+    private Employee makeEmp(String fn, String ln, String occ)
     {
-        String prompt = "What is the employee's First Name?"; 
-        String fn = getInput(prompt);
-        prompt = "What is the employee's Last Name?"; 
-        String ln = getInput(prompt);
-        prompt = "What is the employee's Min Hrs?"; 
-        int mn = Integer.parseInt(getInput(prompt));
-        prompt = "What is the employee's Max Hrs?"; 
-        int mx = Integer.parseInt(getInput(prompt));
-
-        Employee emp = new Employee(fn, ln, mn, mx);
+        Employee emp = new Employee(fn, ln, occ);
+        
         return emp;
     }
 
