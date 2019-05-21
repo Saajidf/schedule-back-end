@@ -1,0 +1,29 @@
+[
+	{
+		"first":"Google I/O 2015",
+		"last":"800 Howard St., San Francisco, CA 94103",
+        "occupation":"testing",
+		"shifts":3,
+		"end":"2019-05-20T17:00:00-04:00",
+		"unavailable":[
+			2,
+			6
+		]
+
+	}
+
+	{
+		"first":"Google I/O 2015",
+		"last":"800 Howard St., San Francisco, CA 94103",
+        "occupation":"testing",
+		"shifts":4,
+		"end":"2019-05-20T17:00:00-04:00",
+		"unavailable":[
+			1,
+			5,
+			6
+		]
+
+	}
+
+]
